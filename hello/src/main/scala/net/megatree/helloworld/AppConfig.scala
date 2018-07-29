@@ -1,4 +1,4 @@
-package net.megatree.myscalaspring
+package net.megatree.helloworld
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
