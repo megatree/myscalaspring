@@ -2,7 +2,7 @@ package net.megatree.helloworld.controller
 
 import java.util.Date
 
-import io.swagger.annotations.{Api, ApiOperation, ApiResponse}
+import io.swagger.annotations.{Api, ApiOperation}
 import net.megatree.common.model.Result
 import org.slf4j.{Logger, LoggerFactory}
 import org.springframework.web.bind.annotation.{PostMapping, RequestMapping, RestController}
@@ -22,6 +22,8 @@ class HelloController {
     def greeting(): Result = {
         val now = new Date
         val content = s"""hello, Now is ${now}"""
-        Result(200, "成功", content)
+        val r = Result(200, "成功", content)
+        log.info(r.toString)
+        r
     }
 }

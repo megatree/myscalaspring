@@ -1,10 +1,8 @@
 package net.megatree.common.model
 
-import io.swagger.annotations.{ApiModel, ApiModelProperty}
+import scala.beans.BeanProperty
 
 /**
   * Created by mythss on 2018-07-30.
   */
-case class Result(@ApiModelProperty("状态码") code: Int,
-                  @ApiModelProperty("信息") msg: String,
-                  @ApiModelProperty("信息") data: Any)
+case class Result(@BeanProperty code: Int, @BeanProperty msg: String, @BeanProperty data: Any)
