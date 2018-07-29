@@ -1,4 +1,4 @@
-#Spring Boot with Scala 
+# Spring Boot with Scala 
 
 特性：  
 [x] ansi logback    
