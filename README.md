@@ -4,6 +4,7 @@
 [x] ansi logback    
 [x] test  
 [x] module  
-[ ] swagger   
+[x] swagger   
 [ ] sql filter  
 [ ] jwt   
+ 
