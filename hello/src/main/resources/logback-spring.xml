@@ -133,7 +133,7 @@
         <appender-ref ref="ERROR"/>  
           
     </logger>
-    <logger name="org.mybatis" additivity="false">  
+    <logger name="org.jdbi" additivity="false">  
         <springProfile name="dev">
             <level value="DEBUG"/>  
         </springProfile>
